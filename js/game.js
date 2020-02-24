@@ -59,18 +59,18 @@ class playGame extends Phaser.Scene{
     preload(){
 
 	    //github fix
-	    this.load.setBaseURL('https://anomaly557.github.io/Oliver-s-Tales-After-the-Stories-The-Hell-Raid-2/assets/js');
+	    this.load.setBaseURL('https://anomaly557.github.io/Oliver-s-Tales-After-the-Stories-The-Hell-Raid-2/');
 	    
 	    
         //loading a spritesheet animation
-        this.load.spritesheet('bird', '../assets/img/clumsy.png', {
+        this.load.spritesheet('bird', 'img/clumsy.png', {
             frameWidth: 85,
             frameHeight: 60
         });
         
 	//loading static images
-        this.load.image('pipe', '../assets/img/pipe.png');
-        this.load.image('background', '../assets/img/bg.png');
+        this.load.image('pipe', 'img/pipe.png');
+        this.load.image('background', 'img/bg.png');
     }
     create(){
         
