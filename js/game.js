@@ -59,7 +59,7 @@ class playGame extends Phaser.Scene{
     preload(){
 
 	    //github fix
-	    this.load.setBaseURL('https://anomaly557.github.io/Oliver-s-Tales-After-the-Stories-The-Hell-Raid-2/');
+	    this.load.setBaseURL('https://anomaly557.github.io/Oliver-s-Tales-After-the-Stories-The-Hell-Raid-2/assets/');
 	    
 	    
         //loading a spritesheet animation
