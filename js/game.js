@@ -57,7 +57,11 @@ class playGame extends Phaser.Scene{
 
     //preload is where we get tell the game where our assets are e.g. images and sounds.
     preload(){
-        
+
+	    //github fix
+	    this.load.setBaseURL('https://anomaly557.github.io/Oliver-s-Tales-After-the-Stories-The-Hell-Raid-2/');
+	    
+	    
         //loading a spritesheet animation
         this.load.spritesheet('bird', '../assets/img/clumsy.png', {
             frameWidth: 85,
